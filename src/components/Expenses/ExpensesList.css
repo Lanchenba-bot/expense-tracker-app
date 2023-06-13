@@ -1,0 +1,37 @@
+.filter-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-by-year{
+  padding: 0.3rem 0.5rem;
+}
+.expenses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expenses-list__fallback {
+    color: white;
+    text-align: center;
+  }
+  .sort-buttons {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .sort-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sort-button:hover {
+    background-color: #45a049;
+  }
